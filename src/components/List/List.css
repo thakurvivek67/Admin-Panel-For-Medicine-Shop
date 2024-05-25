@@ -1,0 +1,41 @@
+.item {
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 10px;
+    color: white;
+    background-color:rgb(18, 180, 198);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px rgba(21, 21, 22, 0.2);
+}
+
+.item-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item-info>div {
+    margin-right: 10px;
+}
+
+.item-info>div:last-child {
+    margin-right: 0;
+}
+
+.add-to-cart-btn {
+    background-color:white;
+    color:rgb(18, 180, 198);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color:rgb(155, 200, 205);
+}
